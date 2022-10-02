@@ -1,0 +1,126 @@
+body {
+    margin:0;
+    padding:0
+}
+
+.newAgeContainer {
+    background-image: url(./img/bg-pattern.png), linear-gradient( to right, rgb(218, 36, 49), rgb(122, 67,151));
+
+}
+
+.newAgeText {
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    margin-top: 40%;
+}
+
+.navbar {
+    background-image: url(./img/bg-pattern.png), linear-gradient( to right, rgb(218, 36, 49), rgb(122, 67,151));
+}
+
+.nav-link, .navbar-brand {
+    color: #fdcc52;
+    font-family:  'Catamaran', Helvetica, Arial, sans-serif;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: white;
+}
+
+.btn-start {
+    border-radius: 25px;
+    width:fit-content;
+    color: white;
+    border-color: white;
+}
+
+.btn-start:hover {
+    background-color: #fdcc52;
+    transition: 300ms;
+}
+
+
+.jumbotron {
+    background-color: #fdcc52;
+}
+
+.googlePlay, .appStore {
+    height: 50px;
+}
+
+.stopStart {
+    background-image: url(./img/bg-cta.jpg);
+    height: 100vh;
+    color: white;
+    filter: opacity(80%);
+}
+
+.stopStart h2 {
+    font-weight:400;
+}
+
+.stopStart button {
+    font-weight: bolder;
+    border: 2px solid;
+}
+
+.stopStart button:hover {
+    background-color:#fdcc52;
+    border: 2px solid #fdcc52;
+}
+
+.love {
+    background-color: #fdcc52;
+    opacity: 90%;
+}
+
+.love:hover {
+    opacity: 100%;
+}
+
+
+.fa-square-twitter {
+    color: rgb(28, 186, 239);
+    background-color: white;
+    border-radius: 30%;
+    border: 3px solid rgb(28, 186, 239);
+}
+
+.fa-facebook {
+    background-color: white;
+    border-radius: 50%;
+    color: rgb(60, 60, 115);
+    border: 3px solid rgb(60, 60, 115);
+}
+
+.fa-google-plus {
+    background-color: white;
+    border-radius: 50%;
+    color:red;
+    border: 3px solid red;
+}
+
+.fun {
+    background-color: white;
+}
+
+.phone {
+    position: relative;
+    display: inline;
+}
+
+.phonePicture {
+    bottom: 10%;
+    left: 4.5%;
+    max-width: 60%;
+    position: absolute;
+}
+
+i {
+    color: rgb(122, 67,151);
+}
+
+footer small:hover {
+    color: #fdcc52;
+}
+
