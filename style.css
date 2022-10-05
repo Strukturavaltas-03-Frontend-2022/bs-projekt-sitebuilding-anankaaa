@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Lato:ital,wght@1,300&family=Mulish:wght@300&display=swap');
+
+
 body {
     margin:0;
     padding:0;
     overflow-x: hidden;
+    font-family: 'Muli', Helvetica, Arial, sans-serif;
 }
 
 .newAgeContainer {
@@ -47,11 +51,13 @@ body {
     width:fit-content;
     color: white;
     border-color: white;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
 
 .btn-start:hover {
     background-color: #fdcc52;
     transition: 300ms;
+    border: 2px solid #fdcc52;
 }
 
 
@@ -65,9 +71,11 @@ body {
 
 .stopStart {
     background-image: url(./img/bg-cta.jpg);
-    height: 100vh;
     color: white;
     filter: opacity(80%);
+    background: cover;
+    height: 100vh;
+    background-size: cover;
 }
 
 .stopStart h2 {
@@ -77,11 +85,13 @@ body {
 .stopStart button {
     font-weight: bolder;
     border: 2px solid;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
 
 .stopStart button:hover {
     background-color:#fdcc52;
     border: 2px solid #fdcc52;
+    transition: 300ms;
 }
 
 .love {
@@ -133,6 +143,10 @@ body {
 
 i {
     color: rgb(122, 67,151);
+}
+
+footer {
+    font-family: 'Mulish', Helvetica, Arial, sans-serif;
 }
 
 footer small:hover {
