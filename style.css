@@ -1,6 +1,7 @@
 body {
     margin:0;
-    padding:0
+    padding:0;
+    overflow-x: hidden;
 }
 
 .newAgeContainer {
@@ -16,15 +17,29 @@ body {
 
 .navbar {
     background-image: url(./img/bg-pattern.png), linear-gradient( to right, rgb(218, 36, 49), rgb(122, 67,151));
+    display: flex;
 }
 
-.nav-link, .navbar-brand {
+.navbar .navbar-brand {
     color: #fdcc52;
     font-family:  'Catamaran', Helvetica, Arial, sans-serif;
 }
 
-.nav-link:hover, .navbar-brand:hover {
+.navbar .navbar-brand:hover {
     color: white;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+    color: #fdcc52;
+    font-family:  'Catamaran', Helvetica, Arial, sans-serif;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+    color: white;
+}
+
+.navbar .collapse {
+    justify-content: flex-end;
 }
 
 .btn-start {
