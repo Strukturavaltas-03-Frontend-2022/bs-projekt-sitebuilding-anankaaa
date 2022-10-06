@@ -15,7 +15,7 @@ body {
 
 .newAgeText {
     font-family: 'Catamaran', Helvetica, Arial, sans-serif;
-    font-size: 50px;
+    font-size: 3rem;
     margin-top: 40%;
 }
 
@@ -76,6 +76,7 @@ body {
     background: cover;
     height: 100vh;
     background-size: cover;
+    background-position: center;
 }
 
 .stopStart h2 {
@@ -141,10 +142,6 @@ body {
     position: absolute;
 }
 
-i {
-    color: rgb(122, 67,151);
-}
-
 footer {
     font-family: 'Mulish', Helvetica, Arial, sans-serif;
 }
@@ -153,3 +150,8 @@ footer small:hover {
     color: #fdcc52;
 }
 
+.funIcon {
+    background: -webkit-linear-gradient(left, rgb(218, 36, 49), rgb(122, 67,151));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
